@@ -1,7 +1,6 @@
 import React from 'react'
 
 
-
 class AddMovie extends React.Component {
   //toda classe sempre usa render pois vai renderizar a interação do usuário
 

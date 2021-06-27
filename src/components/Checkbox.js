@@ -7,10 +7,12 @@ function Checkbox(props) {
     <input
       type="checkbox" //permanece
       className="form-check-input"  //permanece
-      id={props.id} //muda
-      name={props.name} //muda
-      onChange={props.onChange} //muda
-      checked={props.checked} //muda
+      id={props.id} //muda  de "CheckboxField" p/
+      name={props.name} //muda de "hasOscars" p/
+      onChange={props.onChange} //muda de {(event) => {
+      //this.{[event.target.name]: event.target.checked })
+         // }}
+      checked={props.checked} //muda de {this.state.hasOscars} p/
     />
 
   </div>
